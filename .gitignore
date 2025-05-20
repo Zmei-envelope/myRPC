@@ -43,3 +43,6 @@ Mkfile.old
 dkms.conf
 
 /deb
+*.deb
+deb/
+*.bin
