@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     char *command = NULL;
     char *server_ip = NULL;
     int port = 0;
-    int use_stream = 1; // Default to stream socket
+    int use_stream = 1; // Базовый сокет
     int opt;
 
     static struct option long_options[] = {
