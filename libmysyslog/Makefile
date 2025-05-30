@@ -28,7 +28,7 @@ deb: clean all
 	echo "Section: libs" >> deb_pkg/DEBIAN/control
 	echo "Priority: optional" >> deb_pkg/DEBIAN/control
 	echo "Architecture: amd64" >> deb_pkg/DEBIAN/control
-	echo "Maintainer: Your Name <Zmei-envelope>" >> deb_pkg/DEBIAN/control
+	echo "Maintainer: Stepan <whitestepan46@yandex.ru>" >> deb_pkg/DEBIAN/control
 	echo "Description: My custom syslog library" >> deb_pkg/DEBIAN/control
 	# Build the package
 	fakeroot dpkg-deb --build deb_pkg ../deb/libmysyslog_1.0-1_amd64.deb
