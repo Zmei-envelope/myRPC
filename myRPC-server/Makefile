@@ -38,7 +38,7 @@ deb: clean all
 	echo "Section: net" >> deb_pkg/DEBIAN/control
 	echo "Priority: optional" >> deb_pkg/DEBIAN/control
 	echo "Architecture: amd64" >> deb_pkg/DEBIAN/control
-	echo "Maintainer: Your Name <you@example.com>" >> deb_pkg/DEBIAN/control
+	echo "Maintainer: Your Name <Zmei-envelope>" >> deb_pkg/DEBIAN/control
 	echo "Description: myRPC Server Application" >> deb_pkg/DEBIAN/control
 	# Build the package
 	fakeroot dpkg-deb --build deb_pkg ../deb/myrpc-server_1.0-1_amd64.deb
